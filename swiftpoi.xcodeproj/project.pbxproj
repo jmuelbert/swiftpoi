@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B768E1A31C304E71004A9F27 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768E1A21C304E71004A9F27 /* Package.swift */; };
 		B768E1AD1C305FF9004A9F27 /* PackageNamespaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768E1AC1C305FF9004A9F27 /* PackageNamespaces.swift */; };
 		B7A5B46E1C2FF44E00015FE2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B7A5B46D1C2FF44E00015FE2 /* README.md */; };
 		B7EF2D9E1C36B37400F14E8B /* Hyperlink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EF2D9D1C36B37400F14E8B /* Hyperlink.swift */; };
@@ -16,7 +15,6 @@
 
 /* Begin PBXFileReference section */
 		B73A02811C2FF24000FF7565 /* libswiftpoi.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libswiftpoi.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		B768E1A21C304E71004A9F27 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		B768E1AC1C305FF9004A9F27 /* PackageNamespaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageNamespaces.swift; sourceTree = "<group>"; };
 		B7A5B46D1C2FF44E00015FE2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B7EF2D9D1C36B37400F14E8B /* Hyperlink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hyperlink.swift; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 				B7EF2D9A1C36B2DD00F14E8B /* resources */,
 				B7EF2D9B1C36B2FA00F14E8B /* testcases */,
 				B7EF2D9C1C36B31400F14E8B /* types */,
-				B768E1A21C304E71004A9F27 /* Package.swift */,
 			);
 			path = swiftpoi;
 			sourceTree = "<group>";
@@ -464,7 +461,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B768E1A31C304E71004A9F27 /* Package.swift in Sources */,
 				B7A5B46E1C2FF44E00015FE2 /* README.md in Sources */,
 				B7EF2DA01C36B95700F14E8B /* HexDump.swift in Sources */,
 				B768E1AD1C305FF9004A9F27 /* PackageNamespaces.swift in Sources */,
