@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B768E1A31C304E71004A9F27 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768E1A21C304E71004A9F27 /* Package.swift */; };
 		B768E1AD1C305FF9004A9F27 /* PackageNamespaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = B768E1AC1C305FF9004A9F27 /* PackageNamespaces.swift */; };
 		B7A5B46E1C2FF44E00015FE2 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B7A5B46D1C2FF44E00015FE2 /* README.md */; };
+		B7B039BE1C3D19360023F4D0 /* AbstractEscherOptRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B039BD1C3D19360023F4D0 /* AbstractEscherOptRecord.swift */; };
+		B7B039C01C3D1A860023F4D0 /* EscherRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B039BF1C3D1A860023F4D0 /* EscherRecord.swift */; };
+		B7B039C21C3D1B3A0023F4D0 /* BitField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B039C11C3D1B3A0023F4D0 /* BitField.swift */; };
+		B7B039C41C3D1BE20023F4D0 /* BitFieldFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B039C31C3D1BE20023F4D0 /* BitFieldFactory.swift */; };
+		B7B039C61C3D1C530023F4D0 /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B039C51C3D1C530023F4D0 /* Internal.swift */; };
+		B7B039C81C3D1EF20023F4D0 /* LittleEndian.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B039C71C3D1EF20023F4D0 /* LittleEndian.swift */; };
+		B7B039CA1C3D1F930023F4D0 /* LittleEndianConsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B039C91C3D1F930023F4D0 /* LittleEndianConsts.swift */; };
 		B7EF2D9E1C36B37400F14E8B /* Hyperlink.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EF2D9D1C36B37400F14E8B /* Hyperlink.swift */; };
 		B7EF2DA01C36B95700F14E8B /* HexDump.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EF2D9F1C36B95700F14E8B /* HexDump.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B73A02811C2FF24000FF7565 /* libswiftpoi.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libswiftpoi.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		B768E1A21C304E71004A9F27 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		B768E1AC1C305FF9004A9F27 /* PackageNamespaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PackageNamespaces.swift; sourceTree = "<group>"; };
 		B7A5B46D1C2FF44E00015FE2 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B7B039BD1C3D19360023F4D0 /* AbstractEscherOptRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractEscherOptRecord.swift; sourceTree = "<group>"; };
+		B7B039BF1C3D1A860023F4D0 /* EscherRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EscherRecord.swift; sourceTree = "<group>"; };
+		B7B039C11C3D1B3A0023F4D0 /* BitField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitField.swift; sourceTree = "<group>"; };
+		B7B039C31C3D1BE20023F4D0 /* BitFieldFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitFieldFactory.swift; sourceTree = "<group>"; };
+		B7B039C51C3D1C530023F4D0 /* Internal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Internal.swift; sourceTree = "<group>"; };
+		B7B039C71C3D1EF20023F4D0 /* LittleEndian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleEndian.swift; sourceTree = "<group>"; };
+		B7B039C91C3D1F930023F4D0 /* LittleEndianConsts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LittleEndianConsts.swift; sourceTree = "<group>"; };
 		B7EF2D9D1C36B37400F14E8B /* Hyperlink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hyperlink.swift; sourceTree = "<group>"; };
 		B7EF2D9F1C36B95700F14E8B /* HexDump.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexDump.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,7 +50,7 @@
 			isa = PBXGroup;
 			children = (
 				B7A5B46D1C2FF44E00015FE2 /* README.md */,
-				B73A02831C2FF24000FF7565 /* swiftpoi */,
+				B73A02831C2FF24000FF7565 /* sources */,
 				B73A02821C2FF24000FF7565 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,10 +63,9 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B73A02831C2FF24000FF7565 /* swiftpoi */ = {
+		B73A02831C2FF24000FF7565 /* sources */ = {
 			isa = PBXGroup;
 			children = (
-				B7EF2D811C36AFD800F14E8B /* examples */,
 				B7EF2D8C1C36B19000F14E8B /* poi */,
 				B7EF2D981C36B29A00F14E8B /* models */,
 				B768E1A41C305DCC004A9F27 /* openxml4swift */,
@@ -63,8 +74,8 @@
 				B7EF2D9A1C36B2DD00F14E8B /* resources */,
 				B7EF2D9B1C36B2FA00F14E8B /* testcases */,
 				B7EF2D9C1C36B31400F14E8B /* types */,
-				B768E1A21C304E71004A9F27 /* Package.swift */,
 			);
+			name = sources;
 			path = swiftpoi;
 			sourceTree = "<group>";
 		};
@@ -187,93 +198,6 @@
 			name = utils;
 			sourceTree = "<group>";
 		};
-		B7EF2D811C36AFD800F14E8B /* examples */ = {
-			isa = PBXGroup;
-			children = (
-				B7EF2D821C36B05B00F14E8B /* hpfs */,
-				B7EF2D831C36B06800F14E8B /* hslf */,
-				B7EF2D841C36B07B00F14E8B /* hsmf */,
-				B7EF2D851C36B09A00F14E8B /* hssf */,
-				B7EF2D861C36B0A200F14E8B /* hwpf */,
-				B7EF2D871C36B0C200F14E8B /* poifs */,
-				B7EF2D881C36B0D300F14E8B /* ss */,
-				B7EF2D891C36B0DB00F14E8B /* xslf */,
-				B7EF2D8A1C36B0E800F14E8B /* xssf */,
-				B7EF2D8B1C36B0F400F14E8B /* xwpf */,
-			);
-			name = examples;
-			sourceTree = "<group>";
-		};
-		B7EF2D821C36B05B00F14E8B /* hpfs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = hpfs;
-			sourceTree = "<group>";
-		};
-		B7EF2D831C36B06800F14E8B /* hslf */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = hslf;
-			sourceTree = "<group>";
-		};
-		B7EF2D841C36B07B00F14E8B /* hsmf */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = hsmf;
-			sourceTree = "<group>";
-		};
-		B7EF2D851C36B09A00F14E8B /* hssf */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = hssf;
-			sourceTree = "<group>";
-		};
-		B7EF2D861C36B0A200F14E8B /* hwpf */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = hwpf;
-			sourceTree = "<group>";
-		};
-		B7EF2D871C36B0C200F14E8B /* poifs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = poifs;
-			sourceTree = "<group>";
-		};
-		B7EF2D881C36B0D300F14E8B /* ss */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = ss;
-			sourceTree = "<group>";
-		};
-		B7EF2D891C36B0DB00F14E8B /* xslf */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = xslf;
-			sourceTree = "<group>";
-		};
-		B7EF2D8A1C36B0E800F14E8B /* xssf */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = xssf;
-			sourceTree = "<group>";
-		};
-		B7EF2D8B1C36B0F400F14E8B /* xwpf */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = xwpf;
-			sourceTree = "<group>";
-		};
 		B7EF2D8C1C36B19000F14E8B /* poi */ = {
 			isa = PBXGroup;
 			children = (
@@ -302,6 +226,8 @@
 		B7EF2D8E1C36B1B100F14E8B /* ddf */ = {
 			isa = PBXGroup;
 			children = (
+				B7B039BD1C3D19360023F4D0 /* AbstractEscherOptRecord.swift */,
+				B7B039BF1C3D1A860023F4D0 /* EscherRecord.swift */,
 			);
 			name = ddf;
 			sourceTree = "<group>";
@@ -352,6 +278,11 @@
 			isa = PBXGroup;
 			children = (
 				B7EF2D9F1C36B95700F14E8B /* HexDump.swift */,
+				B7B039C11C3D1B3A0023F4D0 /* BitField.swift */,
+				B7B039C31C3D1BE20023F4D0 /* BitFieldFactory.swift */,
+				B7B039C51C3D1C530023F4D0 /* Internal.swift */,
+				B7B039C71C3D1EF20023F4D0 /* LittleEndian.swift */,
+				B7B039C91C3D1F930023F4D0 /* LittleEndianConsts.swift */,
 			);
 			name = util;
 			sourceTree = "<group>";
@@ -418,6 +349,7 @@
 				B73A027D1C2FF24000FF7565 /* Sources */,
 				B73A027E1C2FF24000FF7565 /* Frameworks */,
 				B73A027F1C2FF24000FF7565 /* Headers */,
+				B7B039CE1C3DAB4F0023F4D0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -459,16 +391,38 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B7B039CE1C3DAB4F0023F4D0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"jm\";\ncompanyID=\"de.juergenmuelbert\";\ncompanyURL=\"http://www.juergen-muelbert.de\";\n# target=\"iphoneos\";\ntarget=\"macosx\";\noutputPath=\"~/help\";\n# End constants\n/usr/local/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B73A027D1C2FF24000FF7565 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B768E1A31C304E71004A9F27 /* Package.swift in Sources */,
+				B7B039C81C3D1EF20023F4D0 /* LittleEndian.swift in Sources */,
 				B7A5B46E1C2FF44E00015FE2 /* README.md in Sources */,
 				B7EF2DA01C36B95700F14E8B /* HexDump.swift in Sources */,
+				B7B039C21C3D1B3A0023F4D0 /* BitField.swift in Sources */,
+				B7B039C41C3D1BE20023F4D0 /* BitFieldFactory.swift in Sources */,
+				B7B039C61C3D1C530023F4D0 /* Internal.swift in Sources */,
 				B768E1AD1C305FF9004A9F27 /* PackageNamespaces.swift in Sources */,
 				B7EF2D9E1C36B37400F14E8B /* Hyperlink.swift in Sources */,
+				B7B039C01C3D1A860023F4D0 /* EscherRecord.swift in Sources */,
+				B7B039CA1C3D1F930023F4D0 /* LittleEndianConsts.swift in Sources */,
+				B7B039BE1C3D19360023F4D0 /* AbstractEscherOptRecord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
