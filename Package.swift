@@ -15,16 +15,10 @@
 // limitations under the License.
 // ==================================================================== */
 
-#if SWIFT
+
 import PackageDescription
 
-    
+
 let package = Package(
-    name: "swiftpoi",
-    targets: [],
-    dependencies: [
-        .Package(url: "https://github.com/jmuelbert/swiftpoi.git",
-            majorVersion: 1),
-    ]
+    name: "swiftpoi"
 )
-#endif
