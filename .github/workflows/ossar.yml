@@ -16,7 +16,7 @@ on:
     # The branches below must be a subset of the branches above
     types: [opened, synchronize, reopened]
   schedule:
-    - cron: "30 13 * * 3"
+    - cron: "40 12 * * 3"
 
 permissions:
   contents: read
