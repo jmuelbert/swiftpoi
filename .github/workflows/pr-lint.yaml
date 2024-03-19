@@ -1,0 +1,36 @@
+---
+# SPDX-FileCopyrightText: Jef LeCompte
+#
+# SPDX-License-Identifier: MIT
+#
+name: Pull Request Linter
+on:
+  pull_request:
+    types:
+      - opened
+      - edited
+      - synchronize
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  lint-pull-request-title:
+    name: Lint pull request title
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+
+    steps:
+      - name: '🧰 Checkout Source Code'
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+
+      - name: Lint pull request title
+        uses: matthiashermsen/lint-pull-request-title@49458c35f9eeaaad64abfb7b1def719350b6a755 # v1.0.0
+        with:
+          allowed-pull-request-types: chore,feat,fix
